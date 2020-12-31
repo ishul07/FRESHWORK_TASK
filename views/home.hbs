@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+</head>
+<body>
+    
+    <marquee  >
+        <h1>File Based Key-Value Database</h1>
+    </marquee>
+
+    <form id="form" action='/' method='POST'>
+        <button  id="createBtn" value="createBtn"  name="selectBtn" >Create</button>
+        <button  id="readBtn"  value="readBtn"     name="selectBtn" >Read</button>
+        <button  id="deleteBtn"  value="deleteBtn"  name="selectBtn">Delete</button>
+        <input type="text" name="inputK" id="inputK" placeholder="Enter your key here">
+        <input type="text" name="inputV" id="inputV" placeholder="Enter your Value here">
+        <!-- <button type="submit" id="submitBtn"> Submit</button> -->
+    </form>
+    <div>
+        <p>{{objreturn.kkey}}</p>
+    </div>
+</body>
+</html>
